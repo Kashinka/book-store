@@ -1,0 +1,335 @@
+.body {
+  margin-left: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.container-fluid {
+  margin-left: -30px;
+  margin-right: -5px;
+  padding-bottom: 10px;
+  width: 110vw;
+}
+nav .container-fluid {
+  box-shadow: 0px 5px 5px -5px rgba(78, 55, 55, 0.2);
+}
+.navbar-nav {
+  --bs-nav-link-padding-x: 0.6rem;
+  --bs-nav-link-padding-y: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  margin-right: 0.15rem;
+}
+.navbarTogglerDemo01 {
+  margin-left: 24px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4f4f4f;
+}
+#navbarSupportedContent {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+.book {
+  margin-top: 30px;
+}
+.book__heading {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 33px;
+}
+.book__description {
+  font-size: 12px;
+  line-height: 140%;
+  color: #828282;
+}
+
+.book__button {
+  height: 40px;
+  width: 296px;
+  left: 16px;
+  top: 0px;
+  border-radius: 8px;  
+}
+
+.btn-prm {
+  margin: 11px 0 8px 0;
+  background: #D96F6E;
+  border: 1px solid #D96F6E;
+}
+
+.btn-scn {
+  background: #F3A492;
+  border: 1px solid #F3A492;
+}
+
+.txt-pblsh {
+  margin: 82px 0 10px 0;
+  color: #828282;
+  /*text-align: center;*/
+}
+.button:hover {
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);
+  color: white;
+  transform: scale(1.1);
+}
+.section-link {
+  margin-top: 24px;
+  /* border: 1px solid red; */
+}
+.subcategory__heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #4f4f4f;
+}
+.section-link__genres {
+  margin-bottom: 32px;
+}
+/*.section-link__genres {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+} */
+.button {
+  border-radius: 10px;
+  line-height: 15px;
+  text-align: center;
+  color: #ffffff;
+}
+.button:hover {
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.3);
+  color: white;
+  transform: scale(1.1);
+}
+.btn-blue {
+  background: linear-gradient(to right, #588ca0 0%, #b4ccd5 100%);
+}
+.btn-yellow-pink {
+  background: linear-gradient(to right, #f4cd62 0%, #f3a88e 100%);
+}
+.btn-contemporary {
+  width: 123px;
+}
+/* .section-link__link-decoration {
+  text-decoration: none;
+} */
+
+/* .section-link__genres_yellow-pink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+  width: 123px;
+  height: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #ffffff;
+  background: linear-gradient(90deg, #f2d05c 0%, #f3a492 100%);
+  border-radius: 8px;
+} */
+
+/* .section-link__genres_blue-baby {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+  width: 128px;
+  height: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #ffffff;
+  background: linear-gradient(90deg, #53889d 0%, #bbd1d9 100%);
+  border-radius: 8px;
+} */
+
+.section-link__circle-icons {
+  display: inline-block;
+  box-sizing: border-box;
+  margin-top: 9px;
+  margin-inline: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: #53889d;
+}
+.similar-publications {
+  margin: 32px 0 42px 0px;
+}
+.category__heading,
+.book__title {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+.book__title {
+  font-size: 16px;
+  line-height: 21px;
+}
+.similar-publications__content {
+  height: 300px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.similar-publications__content::-webkit-scrollbar {
+  display: none;
+}
+.book__author,
+.publication__price {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 12px;
+}
+.book__author {
+  font-weight: 400;
+  line-height: 140%;
+  color: #4f4f4f;
+}
+.publication__price {
+  font-weight: 600;
+  line-height: 15px;
+  color: #d96f6e;
+}
+.publication__heading,
+.publication__author,
+.publication__price {
+  margin: auto;
+}
+.publication__link {
+  text-decoration: none;
+}
+.publication__link:hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  height: 56px;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  box-shadow: 0 -6px 4px -4px rgba(78, 55, 55, 0.1);
+  padding: 10px;
+}
+.footer__btn {
+  padding: 1px;
+  border-radius: 25px;
+  height: 60px;
+  width: 60px;
+}
+.btn-active:hover {
+  background-color: white;
+  border-color: #53889d;
+}
+.btn-inactive:hover {
+  background-color: rgba(83, 136, 157, 1);
+  border-color: #53889d;
+}
+.btn__text {
+  color: rgba(187, 209, 217, 1);
+}
+.btn__text:hover {
+  color: rgba(187, 209, 217, 1);
+}
+.btn-active__text {
+  color: #53889d;
+}
+@media screen and (max-width: 767px) {
+  .book {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+  }
+  .book__cover {
+    width: 142.79px;
+    height: 216px;
+    box-shadow: 5px 5px 5px 0px rgba(78, 55, 55, 0.1);
+  }
+  .button {
+    margin: 0 8px 8px 0;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  .btn-fiction {
+    width: 128px;
+  }
+  .publication {
+    width: 145px;
+    height: 273px;
+    margin-right: 16px;
+  }
+  .similar-publications__content {
+    height: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  .similar-publications__content::-webkit-scrollbar {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .category__heading {
+    font-size: 24px;
+  }
+
+  .book {
+    display: flex;
+  }
+  .book__image {
+    width: 30%;
+  }
+  .book__content {
+    width: 70%;
+  }
+  .book__cover {
+    max-width: 100%;
+    max-height: 500px;
+    box-shadow: 5px 5px 5px 0px rgba(78, 55, 55, 0.1);
+  }
+  .book-desktop {
+    display: flex;
+    flex-direction: row;
+  }
+  .section-link__genres {
+    margin-bottom: 32px;
+  }
+  .button {
+    margin: 8px 4px 8px 4px;
+    font-weight: 700;
+    font-size: 13px;
+  }
+  .btn-fiction {
+    width: 138px;
+  }
+  .publication {
+    width: 145px;
+    height: 273px;
+    margin-right: 35px;
+  }
+  .similar-publications__content {
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  .similar-publications__content::-webkit-scrollbar {
+    display: none;
+  }
+}

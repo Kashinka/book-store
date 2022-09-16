@@ -1,0 +1,428 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap");
+.body {
+  margin-left: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.container-fluid {
+  margin-left: -30px;
+  margin-right: -5px;
+  padding-bottom: 10px;
+  width: 110vw;
+}
+nav .container-fluid {
+  box-shadow: 0px 5px 5px -5px rgba(78, 55, 55, 0.2);
+}
+.navbar-nav {
+  --bs-nav-link-padding-x: 0.6rem;
+  --bs-nav-link-padding-y: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  margin-right: 0.15rem;
+}
+
+.navbarTogglerDemo01 {
+  display: flex;
+  margin-left: 24px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #4f4f4f;
+}
+.navbarTogglerDemo01:hover {
+  transform: scale(1.3);
+}
+#navbarSupportedContent {
+  justify-content: flex-end;
+}
+.hero-section {
+  display: flex;
+  align-items: center;
+  /* margin-right: 23px; */
+}
+.hero-section__content {
+  margin-top: 30px;
+  margin-right: 10%;
+}
+
+.hero-section__heading {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.95em;
+  line-height: 36px;
+
+  color: #000000;
+}
+
+.hero-section__paragraph {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  margin-top: 16px;
+
+  color: #000000;
+}
+
+#paragraph_bold {
+  font-weight: 700;
+}
+
+.category__heading {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  /*h3 по БЭМ*/
+}
+
+.scrolling-wrapper__list {
+  height: 160px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  overflow-x: auto;
+  /*border: 1px solid red;*/
+}
+
+.scrolling-wrapper__list::-webkit-scrollbar {
+  width: 0;
+  /*hide scrollbar*/
+}
+
+.card-img {
+  flex-basis: 0;
+  min-width: 100%;
+  width: 216px;
+  height: 128px;
+  margin: 8px 20px 0 0;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  filter: drop-shadow(1px 1px 10px rgba(78, 55, 55, 0.2));
+}
+
+.card-img:hover {
+  transform: scale(1.1);
+  margin-left: 15px;
+}
+
+.section-top {
+  display: flex;
+  min-height: 22vh;
+  /* border: 1px solid red; */
+}
+
+.section-top__scrolling-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.section-top__scrolling-wrapper::-webkit-scrollbar {
+  width: 0;
+  /*hide scrollbar*/
+}
+
+.category__heading {
+  height: max-content;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 20px;
+  /* border: 1px solid red; */
+}
+
+.section-top__header {
+  position: absolute;
+}
+
+.section-top__link_profile {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #000000;
+}
+
+.link-top {
+  text-decoration: none !important;
+  border: none !important;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  height: 56px;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  box-shadow: 0 -6px 4px -4px rgba(78, 55, 55, 0.1);
+  padding: 10px;
+}
+.footer__btn {
+  padding: 1px;
+  border-radius: 25px;
+  height: 60px;
+  width: 60px;
+}
+.btn-active:hover {
+  background-color: white;
+  color: #53889d;
+  border-color: #53889d;
+}
+.btn-inactive:hover {
+  background-color: rgba(83, 136, 157, 1);
+  border-color: #53889d;
+}
+.btn__text {
+  color: #BBD1D9;
+}
+.btn__text:hover {
+  color: rgba(187, 209, 217, 1);
+}
+.btn-active__text {
+  color: #53889d;
+}
+
+.latest_arrivals {
+  margin: 32px 0 36px 0;
+}
+
+.latest-arrivals-books {
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.arrival-book {
+  margin-right: 16px;
+}
+
+.category__heading,
+.book__title {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #000000;
+}
+
+.book__title {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.book__author {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 140%;
+
+  color: #4f4f4f;
+}
+
+.latest-arrivals_book-link {
+  text-decoration: none;
+}
+
+.latest-arrivals-books::-webkit-scrollbar {
+  display: none;
+}
+
+.latest-arrivals_book-link:hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+.thumbnail-group {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 10% repeat(3, 1fr);
+  align-items: stretch;
+  column-gap: 7px;
+  row-gap: 5px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+.thumbnail-group__title_uppercase {
+  grid-row: 1/2;
+  grid-column: 1/5;
+  text-align: left;
+}
+
+.thumbnail-group__icon {
+  width: 100%;
+  height: 76px;
+  background: #ffffff;
+  box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
+  border-radius: 7px;
+  padding: 22px;
+}
+
+.thumbnail-group__item {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  text-align: center;
+}
+
+.thumbnail-group__item > a {
+  color: #000000;
+  text-decoration: none;
+}
+.thumbnail-group__icon {
+  pointer-events: none;
+}
+
+.purchased_books {
+  margin: 32px 0 36px 0;
+}
+
+.purchased-books {
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.purchased-book {
+  margin-right: 16px;
+}
+
+.category__heading,
+.book__title {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #000000;
+}
+
+.book__title {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.book__author {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 140%;
+
+  color: #4f4f4f;
+}
+
+.purchased_books-link {
+  text-decoration: none;
+}
+
+.purchased-books::-webkit-scrollbar {
+  display: none;
+}
+
+.purchased-books:hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-section__img {
+    width: 25%;
+  }
+  .section-top {
+    margin-top: 40px;
+  }
+  .section-top__link_profile {
+    margin-right: 65px;
+    margin-top: 50px;
+    margin-bottom: 65px;
+    font-size: 14px;
+  }
+  .link-top:hover {
+    min-height: 28vh;
+    transform: scale(1.3);
+  }
+  .link-top:hover:first-child {
+    margin-left: 24px;
+    margin-right: -24px;
+  }
+  .link__profile_img-top {
+    width: 90px;
+    height: 90px;
+  }
+  .thumbnail-group {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 15% repeat(2, 1fr);
+  }
+  .thumbnail-group__title_uppercase {
+    grid-column: 1/7;
+  }
+  .thumbnail-group__icon {
+    height: 76px;
+  }
+  .hero-section__heading {
+    font-size: 2.25em;
+  }
+  .category__heading,
+  h2 {
+    font-size: 24px;
+  }
+
+  .thumbnail-group {
+    column-gap: 12px;
+    row-gap: 12px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #heading_line::before {
+    content: "\a";
+    white-space: pre;
+  }
+  .hero-section__img {
+    display: none;
+  }
+  .section-top {
+    margin-top: 20px;
+  }
+  .section-top__link_profile {
+    margin-right: 10px;
+    margin-top: 40px;
+    font-size: 12px;
+  }
+  .link-top:hover {
+    min-height: 20vh;
+    transform: scale(1.1);
+  }
+  .link-top:hover:first-child {
+    margin-left: 5px;
+    margin-right: -5px;
+  }
+  .link__profile_img-top {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+

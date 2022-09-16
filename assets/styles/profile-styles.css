@@ -1,0 +1,354 @@
+.body {
+  margin-left: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.container-fluid {
+  margin-left: -30px;
+  margin-right: -5px;
+  padding-bottom: 10px;
+  width: 110vw;
+}
+.hero-section__heading {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+.profile {
+  margin-top: 30px;
+}
+.profile__address {
+  line-height: 12px;
+  text-align: center;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #828282;
+}
+.profile__subtitle {
+  line-height: 12px;
+  text-align: center;
+  color: #4f4f4f;
+}
+.profile__numbers {
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+.profile__data {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 88px;
+}
+.profile__subtitle:hover,
+.profile__address:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.subcategory__heading,
+h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4f4f4f;
+  margin-bottom: 16px;
+  margin-top: 50px;
+}
+nav .container-fluid {
+  box-shadow: 0px 5px 5px -5px rgba(78, 55, 55, 0.2);
+}
+nav.navbar {
+  padding-left: 0;
+  padding-right: 0;
+  flex-wrap: nowrap;
+}
+.navbar-nav {
+  --bs-nav-link-padding-x: 0.6rem;
+  --bs-nav-link-padding-y: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  margin-right: 0.15rem;
+}
+.navbar-brand {
+  color: #000000;
+}
+.navbar-brand:hover {
+  color: #000000;
+}
+.navbarTogglerDemo01 {
+  display: flex;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 0.5rem;
+  padding-left: 0.3rem;
+  color: #4f4f4f;
+}
+#navbarSupportedContent {
+  justify-content: flex-end;
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 0;
+}
+.button:hover {
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.3);
+  color: white;
+  transform: scale(1.1);
+}
+.btn-blue {
+  background: linear-gradient(to right, #588ca0 0%, #b4ccd5 100%);
+}
+.btn-pink {
+  background: linear-gradient(to right, #f29f8f 0%, #dc7471 100%);
+}
+.btn-yellow-pink {
+  background: linear-gradient(to right, #f4cd62 0%, #f3a88e 100%);
+}
+.btn-blue-yellow {
+  background: linear-gradient(to right, #c0d1cf 0%, #f2d05d 100%);
+}
+.btn-pink-yellow {
+  background: linear-gradient(to right, #da736d 0%, #f0c85d 100%);
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  height: 56px;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  box-shadow: 0 -6px 4px -4px rgba(78, 55, 55, 0.1);
+  padding: 10px;
+}
+.footer__btn {
+  padding: 1px;
+  border-radius: 25px;
+  height: 60px;
+  width: 60px;
+}
+.btn-active:hover {
+  background-color: white;
+  border-color: #53889d;
+}
+.btn-inactive:hover {
+  background-color: rgba(83, 136, 157, 1);
+  border-color: #53889d;
+}
+.btn__text {
+  color: rgba(187, 209, 217, 1);
+}
+.btn__text:hover {
+  color: rgba(187, 209, 217, 1);
+}
+.btn-active__text {
+  color: #53889d;
+}
+.main-section-books-list {
+  column-count: 3;
+  column-gap: 1em;
+  filter: drop-shadow(1px 1px 10px rgba(78, 55, 55, 0.2));
+}
+.main-section-books-list__item > img {
+  display: inline-block;
+  width: 100%;
+  max-width: 150px;
+  margin-bottom: 1em;
+}
+.main-section-books-list__link > a {
+  color: #d96f6e;
+}
+.main-section-books-list__link {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.purchased {
+  margin: 32px 0 36px 0;
+}
+
+.purchased-books {
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.purchased-book {
+  margin-right: 16px;
+}
+
+.category__heading,
+.book__title {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #000000;
+}
+
+.book__title {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.book__author {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 140%;
+
+  color: #4f4f4f;
+}
+
+.purchased-book-link {
+  text-decoration: none;
+}
+
+.purchased-books::-webkit-scrollbar {
+  display: none;
+}
+
+.purchased-book-link:hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .profile {
+    display: grid;
+    justify-items: center;
+  }
+  .profile__picture {
+    width: 128px;
+    height: 131px;
+    border-radius: 100px;
+  }
+  .hero-section__heading {
+    font-size: 31.25px;
+  }
+  .profile__address {
+    font-size: 10px;
+  }
+  .profile__subtitle {
+    font-size: 10px;
+  }
+  .profile__numbers {
+    font-size: 20px;
+  }
+  .button {
+    margin: 0 8px 8px 0;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .btn-african {
+    width: 79px;
+  }
+  .btn-classic {
+    width: 81px;
+  }
+  .btn-contemporary {
+    width: 123px;
+  }
+  .btn-feminist {
+    width: 149px;
+  }
+  .btn-memoirs {
+    width: 87px;
+  }
+  .btn-thrillers {
+    width: 173px;
+  }
+  .btn-crime {
+    width: 102px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .subcategory__heading,
+  h3 {
+    font-size: 20px;
+  }
+  .profile {
+    display: flex;
+  }
+  .profile__picture {
+    border-radius: 10px;
+    width: 450px;
+    height: 450px;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.3);
+  }
+  .hero-section__heading {
+    font-size: 40px;
+  }
+  .profile__address {
+    font-size: 12px;
+  }
+  .profile__subtitle {
+    font-size: 14px;
+  }
+  .profile__numbers {
+    font-size: 25px;
+  }
+  .profile__content {
+    margin-left: 100px;
+    display: grid;
+    align-items: flex-start;
+    text-align: center;
+  }
+  .genres__buttons {
+    margin-top: 30px;
+  }
+  .button {
+    margin: 0 8px 8px 0;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .btn-african {
+    width: 89px;
+  }
+  .btn-classic {
+    width: 91px;
+  }
+  .btn-contemporary {
+    width: 133px;
+  }
+  .btn-feminist {
+    width: 159px;
+  }
+  .btn-memoirs {
+    width: 97px;
+  }
+  .btn-thrillers {
+    width: 183px;
+  }
+  .btn-crime {
+    width: 112px;
+  }
+  .main-section-books-list {
+    column-count: 6;
+  }
+  .main-section-books-list__item > img {
+    max-width: 180px;
+  }
+}
