@@ -39,7 +39,7 @@ nav .container-fluid {
 .navbarTogglerDemo01:hover {
   transform: scale(1.3);
 }
-#navbarSupportedContent {
+.navbarSupportedContent {
   justify-content: flex-end;
 }
 .hero-section {
@@ -74,7 +74,7 @@ nav .container-fluid {
   color: #000000;
 }
 
-#paragraph_bold {
+.paragraph_bold {
   font-weight: 700;
 }
 
@@ -396,7 +396,7 @@ nav .container-fluid {
 }
 
 @media screen and (max-width: 767px) {
-  #heading_line::before {
+  .heading_line::before {
     content: "\a";
     white-space: pre;
   }
